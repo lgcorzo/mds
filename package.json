@@ -31,7 +31,7 @@
     "@chromatic-com/storybook": "^3.2.6",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-typescript": "^12.1.2",
+    "@rollup/plugin-typescript": "^12.3.0",
     "@storybook/addon-actions": "^8.6.11",
     "@storybook/addon-essentials": "^8.6.9",
     "@storybook/addon-interactions": "^8.6.9",
