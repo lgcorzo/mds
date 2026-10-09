@@ -3069,24 +3069,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/components@npm:^8.0.0":
-  version: 8.2.4
-  resolution: "@storybook/components@npm:8.2.4"
-  peerDependencies:
-    storybook: ^8.2.4
-  checksum: 10c0/a5dfcb61960d1cf393aa5a86a3ba33087e7f5f98bf054168fa71d153681534cda76dcbb3ee7dc2f5cff8dba7bd522b88a333babbbae732a9fa4206dfc030ce58
-  languageName: node
-  linkType: hard
-
-"@storybook/core-events@npm:^8.0.0":
-  version: 8.2.4
-  resolution: "@storybook/core-events@npm:8.2.4"
-  peerDependencies:
-    storybook: ^8.2.4
-  checksum: 10c0/7f680c8f252864eedf45f07afdb09191a716d2d829a5ba4051e11d4f542c6651e87971b650cc5c611f6ffc579e229527dbf543fbfa3269340896725aa45fb11c
-  languageName: node
-  linkType: hard
-
 "@storybook/core-webpack@npm:8.6.11":
   version: 8.6.11
   resolution: "@storybook/core-webpack@npm:8.6.11"
@@ -3150,13 +3132,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/icons@npm:^1.2.5":
-  version: 1.2.9
-  resolution: "@storybook/icons@npm:1.2.9"
+"@storybook/icons@npm:^2.0.1":
+  version: 2.1.0
+  resolution: "@storybook/icons@npm:2.1.0"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/37513dbf526bf827941ee274e0f8358c6db41c963ffd0c408a674d794fa9af8d835e0dc4e58fd589106c4f33da5552aa8315ae45745f0c107ade0f6299cbf710
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/73614dbb3e9c4756a6838525a6c78f85b24a5a09782512a39f24fe5a435992d6af92591ce18ac7a9a08c14aec10c08b158f68126aa29125058e01169c827bed6
   languageName: node
   linkType: hard
 
@@ -3190,15 +3171,6 @@ __metadata:
   peerDependencies:
     storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
   checksum: 10c0/6ffb575015f37df54f7e9a2b98b79428d598e3cc9455f33dee1a40350a3fd8587fa307ada0a6b8805f1d02731c6def59395c96e66279ef4d38cfd6cada2e5ce1
-  languageName: node
-  linkType: hard
-
-"@storybook/manager-api@npm:^8.0.0":
-  version: 8.2.4
-  resolution: "@storybook/manager-api@npm:8.2.4"
-  peerDependencies:
-    storybook: ^8.2.4
-  checksum: 10c0/c118b7693c5412137207a3ef075f402d80d88078b56d4f3649ee5ed3d8b4d4af5c3e0b24a0980044621bc3878acb3293daa4187c2e8e99d34aae87337ef3fae6
   languageName: node
   linkType: hard
 
@@ -3414,15 +3386,6 @@ __metadata:
   peerDependencies:
     storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
   checksum: 10c0/628faef6d65c9b1da7725b55d5bcbab9ad76d28aca586873d95f9c60979501d4d9e9788804c9355761aa813d5b8e1d33a65256bacce681b5374d58d2ed6183a0
-  languageName: node
-  linkType: hard
-
-"@storybook/theming@npm:^8.0.0":
-  version: 8.2.4
-  resolution: "@storybook/theming@npm:8.2.4"
-  peerDependencies:
-    storybook: ^8.2.4
-  checksum: 10c0/83748825da3987c08a2f760802685147ab95e0957b774b7e012a79ee0a60cf48e2be6494214db4431aab346576ff60d7b67d7cbb575cf87a34b890d7fdec5b39
   languageName: node
   linkType: hard
 
@@ -8181,7 +8144,7 @@ __metadata:
     rollup-plugin-peer-deps-external: "npm:^2.2.4"
     rollup-plugin-terser: "npm:^7.0.2"
     storybook: "npm:^8.6.9"
-    storybook-dark-mode: "npm:4.0.2"
+    storybook-dark-mode: "npm:5.0.0"
     styled-components: "npm:^5.3.11"
     ts-jest: "npm:^29.3.0"
     tslib: "npm:^2.8.1"
@@ -10411,19 +10374,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-dark-mode@npm:4.0.2":
-  version: 4.0.2
-  resolution: "storybook-dark-mode@npm:4.0.2"
+"storybook-dark-mode@npm:5.0.0":
+  version: 5.0.0
+  resolution: "storybook-dark-mode@npm:5.0.0"
   dependencies:
-    "@storybook/components": "npm:^8.0.0"
-    "@storybook/core-events": "npm:^8.0.0"
-    "@storybook/global": "npm:^5.0.0"
-    "@storybook/icons": "npm:^1.2.5"
-    "@storybook/manager-api": "npm:^8.0.0"
-    "@storybook/theming": "npm:^8.0.0"
+    "@storybook/icons": "npm:^2.0.1"
     fast-deep-equal: "npm:^3.1.3"
     memoizerific: "npm:^1.11.3"
-  checksum: 10c0/d4fc652ff080f6cc9f0effab0c989b66ead3372b267c2c328eef608f27c9822bf47aaa177405e42768b2de22f8a3e9a0280af50430efd0cf78bd6ed1f12c8b29
+  peerDependencies:
+    storybook: ^10.0.0
+  checksum: 10c0/a098909b63fc6b7d5729c726b9220b4c52538dc99758b7669724bb0c2425a8e07f31889129ec530e2aa730438e4d3be3725c4e660ed6535b6ed03e8e474823ec
   languageName: node
   linkType: hard
 
