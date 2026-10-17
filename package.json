@@ -21,7 +21,7 @@
     "luxon": "^3.5.0",
     "react-calendar": "^5.1.0",
     "react-virtualized": "^9.22.6",
-    "styled-components": "^5.3.11"
+    "styled-components": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.6",
