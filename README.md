@@ -1,3 +1,5 @@
+Maintained fork of [minio/mds](https://github.com/minio/mds). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: AGPL-3.0.
+
 # lgcorzo/mds
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -47,3 +49,10 @@ This process is required everytime a new component is created and ready to be di
 ## License
 
 MinIO Design System source is licensed under the GNU AGPLv3 license that can be found in the [LICENSE](https://github.com/minio/mds/blob/master/LICENSE) file.
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/mds/commits) and [Pull Requests](https://github.com/lgcorzo/mds/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
