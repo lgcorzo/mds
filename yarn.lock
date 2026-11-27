@@ -3929,19 +3929,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:8.6.19":
-  version: 8.6.19
-  resolution: "@storybook/addon-links@npm:8.6.19"
+"@storybook/addon-links@npm:10.6.8":
+  version: 10.6.8
+  resolution: "@storybook/addon-links@npm:10.6.8"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
-    ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-    storybook: ^8.6.19
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.6.8
   peerDependenciesMeta:
+    "@types/react":
+      optional: true
     react:
       optional: true
-  checksum: 10c0/4c6d6e3cc7019a02e81b7a3e85deb7e73e39051163fd0713b3cc986b38e5184c098599ee0d5db0ab400f4f5ac368eb5c110daf39c4b7ba1072bec5d4133e0e40
+  checksum: 10c0/e3a89f4eaf5d7d9fd3f8035815b6094eafa710d8e4a6ae6c2e764fe7ad68e57057278b625d160d9d2572c987b28c26683c24e0adc13324c54ff8e67735d1ca39
   languageName: node
   linkType: hard
 
@@ -8857,7 +8859,7 @@ __metadata:
     "@storybook/addon-actions": "npm:9.0.8"
     "@storybook/addon-essentials": "npm:8.6.19"
     "@storybook/addon-interactions": "npm:8.6.19"
-    "@storybook/addon-links": "npm:8.6.19"
+    "@storybook/addon-links": "npm:10.6.8"
     "@storybook/addon-webpack5-compiler-babel": "npm:^3.0.5"
     "@storybook/react": "npm:8.6.19"
     "@storybook/react-webpack5": "npm:10.6.6"
