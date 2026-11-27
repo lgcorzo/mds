@@ -20,7 +20,7 @@
     "detect-gpu": "^5.0.70",
     "luxon": "^3.7.2",
     "react-calendar": "^6.0.1",
-    "react-virtualized": "^9.22.6",
+    "react-virtualized": "^10.0.1",
     "styled-components": "^6.6.0"
   },
   "devDependencies": {
